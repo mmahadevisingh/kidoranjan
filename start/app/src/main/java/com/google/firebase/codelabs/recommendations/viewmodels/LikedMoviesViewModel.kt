@@ -19,7 +19,6 @@
  */
 
 package com.google.firebase.codelabs.recommendations.viewmodels
-
 import android.app.Application
 import androidx.lifecycle.*
 import com.google.firebase.analytics.FirebaseAnalytics
@@ -40,11 +39,12 @@ class LikedMoviesViewModel internal constructor (application: Application) : And
             movies.value = MovieRepository.getInstance(application.applicationContext).getContent().toMutableSet()
         }
     }
+    private val firebaseAnalytics = Firebase.analytics
 
     /** Set movie to liked and log a Firebase Analytics event */
     fun onMovieLiked(movie: Movie) {
         movies.setLike(movie, true)
-        // TODO: Update this function to report the like to Firebase Analytics.
+        logAnalyticsEvent(movie.id.toString())
     }
     fun onMovieLikeRemoved(movie: Movie) {
         movies.setLike(movie, false)
@@ -55,8 +55,9 @@ class LikedMoviesViewModel internal constructor (application: Application) : And
      * model.
      */
     private fun logAnalyticsEvent(id: String) {
-        // TODO: Replace this function with code from the codelab to report a user like to
-        // Firebase Analytics.
+        firebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_ITEM) {
+            param(FirebaseAnalytics.Param.ITEM_ID, id)
+        }
     }
 
     /** Extension functions to set updates to observers when underlying list updates */

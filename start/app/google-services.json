@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "584182910201",
+    "project_id": "kidoranjan-f3178",
+    "storage_bucket": "kidoranjan-f3178.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584182910201:android:617bcd50230ca49e3c6628",
+        "android_client_info": {
+          "package_name": "com.google.firebase.codelabs.recommendations"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584182910201-tp5nlp0qjc8412eperhds95sb6vhh97i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWXh_18bSnv_wWZhLvKKQEN4Yw8LQaOys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584182910201-tp5nlp0qjc8412eperhds95sb6vhh97i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
