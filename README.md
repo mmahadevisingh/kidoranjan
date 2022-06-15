@@ -7,6 +7,6 @@ The model used in kidoranjan uses a Convolutional neural-network encoder (CNN): 
 
 The app has a login page, and then a list of entertainment content for kids appears. As the kids keep liking the content, the liked content is saved under liked tab. Recommendations appear in the recommendations tab accordingly.Also, it has a search bar to allow kids to search relevant content, if they do not like recommended content.
 
-All data is stored using bigquery and recommendation is based on firebase analytrics data.Data is first loaded into pandas library via bigquery, which recieves analytics data from firebase as and when the app is used, and then,training and modeling of data according to ml- model algo is done using tensorflow and google colab and the model is stored in firebase.All thanks to google codelab and imdb data!!!
+All data is stored using bigquery and recommendation is based on firebase analytrics data.Data is first loaded into pandas library via bigquery, which recieves analytics data from firebase as and when the app is used, and then,training and modeling of data according to ml- model algo is done using tensorflow and google colab and the model is stored in firebase.All thanks to google codelab and imdb data!!! THe languages used are kotlin,java and python.
   
 Also, the app is solely made for kids entertainment, so that they get the best entertainment suited for their age group.
