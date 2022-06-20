@@ -5,7 +5,7 @@ Firebase. This is originally made for microsoft engage 2022. The app uses conten
 
 The model used in kidoranjan uses a Convolutional neural-network encoder (CNN): applying multiple layers of convolutional neural-network to generate an encoding of the user history analytics data. 
 
-The app has a login page, and then a list of entertainment content for kids appears. As the kids keep liking the content, the liked content is saved under liked tab. Recommendations appear in the recommendations tab accordingly.Also, it has a search bar to allow kids to search relevant content, if they do not like recommended content.
+The app has a list of entertainment content for kids under the 1st tab. As the kids keep liking the content, the liked content is saved under liked tab. Recommendations appear in the recommendations tab accordingly.Also, it has a search bar to allow kids to search relevant content, if they do not like recommended content.
 
 All data is stored using bigquery and recommendation is based on firebase analytrics data.Data is first loaded into pandas library via bigquery, which recieves analytics data from firebase as and when the app is used, and then,training and modeling of data according to ml- model algo is done using tensorflow and google colab and the model is stored in firebase.All thanks to google codelab and imdb data!!! THe languages used are kotlin,java and python.
   
