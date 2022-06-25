@@ -10,3 +10,5 @@ The app has a list of entertainment content for kids under the 1st tab. As the k
 All data is stored using bigquery and recommendation is based on firebase analytrics data.Data is first loaded into pandas library via bigquery, which recieves analytics data from firebase as and when the app is used, and then,training and modeling of data according to ml- model algo is done using tensorflow and google colab and the model is stored in firebase.All thanks to google codelab and imdb data!!! THe languages used are kotlin,java and python.
   
 Also, the app is solely made for kids entertainment, so that they get the best entertainment suited for their age group.
+
+NOTE- THE ACTUAL SOURCE CODE IS CONTAINED IN START FOLDER OF THIS REPO
