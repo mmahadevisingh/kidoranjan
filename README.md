@@ -11,4 +11,4 @@ All data is stored using bigquery and recommendation is based on firebase analyt
   
 Also, the app is solely made for kids entertainment, so that they get the best entertainment suited for their age group.
 
-NOTE- THE ACTUAL SOURCE CODE IS CONTAINED IN START FOLDER OF THIS REPO. THE ORGANIZER IS REQUESTED TO RUN THE START MODULE.
+NOTE- THE ACTUAL SOURCE CODE IS CONTAINED IN START FOLDER OF THIS REPO. THE ORGANIZER IS REQUESTED TO RUN THE START FOLDER.
